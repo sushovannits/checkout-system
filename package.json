@@ -1,0 +1,44 @@
+{
+  "name": "put-lib-name-here",
+  "version": "0.0.1",
+  "description": "Describe library here",
+  "main": "lib/index.js",
+  "license": "PROPRIETARY",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.439.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.24",
+    "@types/expect": "1.20.4",
+    "@types/jest": "24.0.11",
+    "@types/node": "^8.10.45",
+    "expect": "24.7.1",
+    "jest": "24.7.1",
+    "ts-jest": "24.0.2",
+    "ts-loader": "5.3.3",
+    "tslint": "5.16.0",
+    "tslint-config-airbnb": "5.11.1",
+    "typescript": "3.4.3"
+  },
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/*.spec.(js|ts)"
+    ]
+  }
+}
