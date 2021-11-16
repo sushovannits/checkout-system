@@ -6,7 +6,7 @@
   "license": "PROPRIETARY",
   "private": false,
   "dependencies": {
-    "aws-sdk": "^2.439.0"
+    "aws-sdk": "^2.814.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.24",
